@@ -22,3 +22,14 @@ ngrok config add-authtoken <your_auth_token>
 ```bash
 ngrok http 8080
 ```
+
+## Add ngtok url to github webhook
+```bash
+This gives you a public URL like `https://abc123.ngrok.io`
+
+Update your GitHub webhook to:
+
+https://abc123.ngrok.io/github-webhook/
+```
+
+## Jenkins should now trigger build and testing automatically when code commit happend on github repo.
