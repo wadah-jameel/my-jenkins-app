@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello Jenkins CI/CD!', timestamp: new Date().toISOString() });
+  res.json({ message: '** Hello Jenkins CI/CD! **', timestamp: new Date().toISOString() });
 });
 
 app.get('/health', (req, res) => {
