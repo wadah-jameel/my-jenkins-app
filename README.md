@@ -34,6 +34,13 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 sudo apt update
 sudo apt install jenkins
 sudo systemctl start jenkins
+
+# Install Node.js and npm
+sudo apt install nodejs npm
+
+# Verify the installation
+node -v
+npm -v
 ```
 
 ## Step 2: Initial Jenkins Setup
