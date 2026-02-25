@@ -1,4 +1,4 @@
-# Jenkins CI/CD Pipeline Guide for Beginners
+# Jenkins CI/CD Pipeline
 
 Creating a complete Jenkins pipeline that automatically builds, tests, and deploys a simple application when code changes are pushed to Git.
 
